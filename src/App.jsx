@@ -1,4 +1,5 @@
 import NavBar from "./components/NavBar";
+import { ItemListContainer } from "./components/ItemListContainer";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       {/*           HEADER */}
       <header>
         <NavBar></NavBar>
+        <ItemListContainer></ItemListContainer>
       </header>
       {/*           HEADER */}
       {/* BR */}
@@ -26,11 +28,6 @@ function App() {
       {/* BR */}
       {/* BR */}
       {/* BR */}
-      {/*           SCRIPT BOOSTRAP */}
-      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-      {/*           SCRIPT BOOSTRAP */}
     </body>
   );
 }

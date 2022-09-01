@@ -1,23 +1,12 @@
+import { CartWidget } from "./CartWidget";
+
 const NavBar = () => {
   return (
     <header>
       <div class="conteiner-all">
         <div class="menu-superior">
           {/* LOGO */}
-          <div class="logo-div">
-            <a href="index.html">
-              <img
-                class="img-movil"
-                src="https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/5.19.5/mercadolibre/logo__small.png"
-                alt="Mercado libre"
-              />
-              <img
-                class="img-pc"
-                src="https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/5.19.5/mercadolibre/logo__large_plus.png"
-                alt="Mercado libre"
-              />
-            </a>
-          </div>
+          <CartWidget></CartWidget>
           {/* BUSCADOR */}
           <form action="">
             <input
@@ -32,10 +21,10 @@ const NavBar = () => {
             alt="Propaganda"
           />
           <a href="" class="mi-cuenta">
-            <i class="fa-brands fa-empire"></i> Mi cuenta
+            Mi cuenta
           </a>
           <a href="" class="mis-compras">
-            Mis compras <i class="fa-solid fa-cart-shopping"></i>
+            Mis compras
           </a>
         </div>
         {/* MENU */}
