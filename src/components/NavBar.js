@@ -1,4 +1,5 @@
 import { CartWidget } from "./CartWidget";
+import { Avatar } from "@mui/material";
 
 const NavBar = () => {
   return (
@@ -20,10 +21,11 @@ const NavBar = () => {
             src="https://http2.mlstatic.com/D_NQ_887100-MLA50801817839_072022-OO.webp"
             alt="Propaganda"
           />
-          <a href="" class="mi-cuenta">
+          <a href="#" class="mi-cuenta">
+            <Avatar src="https://www.onlinewebfonts.com/icon/258083" />
             Mi cuenta
           </a>
-          <a href="" class="mis-compras">
+          <a href="#" class="mis-compras">
             Mis compras
           </a>
         </div>
@@ -52,7 +54,9 @@ const NavBar = () => {
                 <a href="paginas/user-session.html">Ingresá</a>
               </li>
               <li>
-                <a href="paginas/carro.html">Mis compras</a>
+                <a href="paginas/carro.html">
+                  <div className="mis-compras">Mis compras</div>
+                </a>
               </li>
             </ul>
           </div>

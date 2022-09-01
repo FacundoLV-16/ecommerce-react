@@ -10,6 +10,12 @@ root.render(
     {/*           CSS */}
     <link rel="stylesheet" href="../css/main.min.css" />
     {/*           CSS */}
+    {/*           MUI ICON */}
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    {/*           MUI ICON */}
     <App />
     {/*           SCRIPT BOOSTRAP */}
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>

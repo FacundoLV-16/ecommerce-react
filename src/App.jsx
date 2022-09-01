@@ -10,7 +10,7 @@ function App() {
       {/*           HEADER */}
       <header>
         <NavBar></NavBar>
-        <ItemListContainer></ItemListContainer>
+        <ItemListContainer texto="Usuario Desconocido"></ItemListContainer>
       </header>
       {/*           HEADER */}
       {/* BR */}
