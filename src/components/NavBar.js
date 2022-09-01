@@ -69,19 +69,6 @@ const NavBar = () => {
           </div>
         </did>
       </div>
-      {/* ALERTA */}
-      <div
-        class="alert container position-sticky top-0 alert-primary hide"
-        role="alert"
-      >
-        Producto Añadido al carrito!
-      </div>
-      <div
-        class="alert container position-sticky top-0 alert-danger remove"
-        role="alert"
-      >
-        Producto Removido!
-      </div>
     </header>
   );
 };
