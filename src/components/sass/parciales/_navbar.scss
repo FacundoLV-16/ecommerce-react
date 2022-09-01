@@ -1,0 +1,79 @@
+/** movil **/
+@media (max-width: 768px) {
+  header {
+    .conteiner-all {
+      .menu-superior {
+        .img-pc {
+          display: none;
+        }
+        .img-propaganda {
+          display: none;
+        }
+      }
+    }
+  }
+}
+/** pc **/
+@media (min-width: 769px) {
+  header {
+    .conteiner-all {
+      .menu-superior {
+        display: grid;
+        grid-template-columns: repeat(5, 20%);
+
+        grid-template-areas: "logo buscador buscador buscador propaganda";
+        .logo-div {
+          grid-area: logo;
+          .img-pc {
+            padding: 5%;
+            width: 10vw;
+          }
+        }
+
+        form {
+          margin: 1.5% 0% 0% -10%;
+          grid-area: buscador;
+          input {
+            padding: 1.5%;
+            width: 100%;
+            height: 4vh;
+          }
+        }
+        .img-propaganda {
+          grid-area: propaganda;
+          width: 100%;
+          padding: 5%;
+        }
+        .mi-cuenta {
+          display: none;
+        }
+        .mis-compras {
+          display: none;
+        }
+        .img-movil {
+          display: none;
+        }
+      }
+      .menu-inferior {
+        .div-menu {
+          .menu {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+
+            li {
+              margin: 0% 0% 0% 2%;
+              a {
+                text-decoration: none;
+                color: grey;
+                &:hover {
+                  color: black;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
