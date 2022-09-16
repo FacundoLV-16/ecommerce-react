@@ -10,14 +10,15 @@ function App() {
       {/*           HEADER */}
       <header>
         <NavBar></NavBar>
-        <ItemListContainer texto="Usuario Desconocido"></ItemListContainer>
       </header>
       {/*           HEADER */}
       {/* BR */}
       {/* BR */}
       {/* BR */}
       {/*           MAIN */}
-      <main></main>
+      <main>
+        <ItemListContainer></ItemListContainer>
+      </main>
       {/*           MAIN */}
       {/* BR */}
       {/* BR */}

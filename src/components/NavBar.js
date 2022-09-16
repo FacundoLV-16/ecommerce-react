@@ -1,5 +1,4 @@
 import { CartWidget } from "./CartWidget";
-import { Avatar } from "@mui/material";
 
 const NavBar = () => {
   return (
@@ -22,7 +21,6 @@ const NavBar = () => {
             alt="Propaganda"
           />
           <a href="#" class="mi-cuenta">
-            <Avatar src="https://www.onlinewebfonts.com/icon/258083" />
             Mi cuenta
           </a>
           <a href="#" class="mis-compras">
